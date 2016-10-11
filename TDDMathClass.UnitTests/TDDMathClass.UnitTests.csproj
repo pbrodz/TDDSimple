@@ -50,11 +50,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TDD4n3wbs\TDDMathClass.csproj">
+    <ProjectReference Include="..\TDDMathClass\TDDMathClass.csproj">
       <Project>{f1b7f2c1-b3c9-4239-b23c-4115d994c556}</Project>
       <Name>TDDMathClass</Name>
     </ProjectReference>
